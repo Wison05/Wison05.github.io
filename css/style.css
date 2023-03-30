@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+*{
+    margin:0 auto;
+    padding:0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+body{
+    width: 1200px;
+    height: 700px;
+    background-color: white;
+}
+
+.top{
+    width: 1200px;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    position: relative;
+    background-color: black;
+}
+
+.main{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+
+.main>li{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.main>li>a{
+    color: white;
+}
+
+.main>li>a:hover{
+    background-color: white;
+    color: black;
+} 
+
+.sub>li{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d3d3d3;
+    float: left;
+    text-align: center;
+}
+
+.sub>li>a{
+    color: black;
+}
+
+.sub>li>a:hover{
+    background-color: #333333;
+    color: white;
+}
+
+.sub{
+    display: none;
+}
+
+.box{
+    width: 1200px;
+    height: 150px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top:100px;
+    left: -200px;
+    display: none;
+
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+}
+
+.contents{
+    width: 1200px;
+    height: 200px;
+}
+
+.notice{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.gallery{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.bottom{
+    width: 1200px;
+    height: 100px;
+}
+
+.bottom_logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.copy{
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+.family{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
